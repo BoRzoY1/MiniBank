@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52dc7e3b-91e3-426e-885a-bb8f92462949">
+  <producedTypes>
+    <objectType typeId="f6fae57f-e896-47f3-b75d-dd8273d18344" valueTypeId="97ae4a56-145f-4ece-9d92-badd912bd402"/>
+    <managerType typeId="037acd60-3c3c-46e2-a6f3-f524c2c04478" valueTypeId="dec50264-4bc0-476d-86f6-5a3edb4e955c"/>
+  </producedTypes>
+  <name>ЖурналАудита</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал действий пользователей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ЖурналАудита.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="4cf2ca3f-b850-4539-a697-487f687b2d02">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

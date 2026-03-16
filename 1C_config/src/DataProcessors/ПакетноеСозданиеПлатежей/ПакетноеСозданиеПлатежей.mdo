@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99f14686-2f8f-41c6-9580-329218165ac1">
+  <producedTypes>
+    <objectType typeId="f98b039d-c4ee-4ae9-ab03-8404548e44ba" valueTypeId="b275bfe4-6858-4cbc-a71e-7fca72b6dfdf"/>
+    <managerType typeId="1be60995-653e-4fae-95cb-f3871dfc75ba" valueTypeId="2bd5f39c-4ac7-4727-9564-95465ba5b1ef"/>
+  </producedTypes>
+  <name>ПакетноеСозданиеПлатежей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пакетное создание платежей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПакетноеСозданиеПлатежей.Form.Форма</defaultForm>
+  <attributes uuid="28cd32c7-f336-4ea4-bbeb-ae5e229f1fb7">
+    <name>СчетОтправителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет отправителя</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БанковскиеСчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="933ca054-183c-4d82-8d0e-5034fdb3fa9f">
+    <name>ДатаПлатежа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата платежа</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7f1e2257-16c7-46b2-9455-f02ef2be488a">
+    <name>Результат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="f276c4a0-2751-4409-88ad-4c340b1dc70c">
+    <producedTypes>
+      <objectType typeId="8da3193c-d4f3-4e01-895e-2a40e490bdc0" valueTypeId="997cd8e8-c5c4-4f0e-a7dc-53b6e6ce459e"/>
+      <rowType typeId="cbb992d8-9760-4da7-952c-b3648df10031" valueTypeId="217452c2-d66a-4b1d-b96b-2dffd801d536"/>
+    </producedTypes>
+    <name>Получатели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получатели</value>
+    </synonym>
+    <attributes uuid="74eb5172-2eee-4239-aae1-9f0dcafe51c4">
+      <name>СчетПолучателя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Счет получателя</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.БанковскиеСчета</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="6f9023a7-77e6-4410-8131-ae3de9f51493">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="97fa3baa-5f99-4b3b-b8d6-103b6f906ddd">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

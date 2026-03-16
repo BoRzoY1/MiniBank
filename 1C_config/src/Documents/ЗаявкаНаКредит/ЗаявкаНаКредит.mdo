@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1b57128-1815-4829-87c1-93713ee53c6a">
+  <producedTypes>
+    <objectType typeId="abb7def6-02fb-4308-bd6b-298645021ba6" valueTypeId="75aaa45a-5b9f-4c6f-89ae-1ba2f550631d"/>
+    <refType typeId="4bc7ce00-2b99-4859-9fb5-c81d68685e9a" valueTypeId="0394f9b9-59f5-4c26-a8ce-75c708d28a85"/>
+    <selectionType typeId="c72bbc12-15d4-48fb-97f1-cf2733a037f4" valueTypeId="8d8c0ba7-b53d-4be6-b68a-6392f73a7459"/>
+    <listType typeId="d2533b21-a9b8-4ea2-94fe-e1a975bda01a" valueTypeId="3d824ee1-3d9a-464f-828f-1a3b1fe3dfc0"/>
+    <managerType typeId="6691e30a-66cc-4483-9f05-c6e3dac415eb" valueTypeId="fef87194-6f6f-4400-a91c-4b142134de8b"/>
+  </producedTypes>
+  <name>ЗаявкаНаКредит</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заявка на кредит</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЗаявкаНаКредит.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.ОстаткиНаСчетах</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="1b8cb555-8935-405b-a834-73318ac0d483">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="663e0183-9d24-4890-ac8f-e45cfd37b2bd">
+    <name>СуммаКредита</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма кредита</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="34fd0b71-877a-445f-b222-ca882f64ea57">
+    <name>СрокМесяцев</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок месяцев</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3380b6d1-4c94-41bb-abaa-88bb94e143a6">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыЗаявок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5fb49aaa-84fd-400e-b2a4-5b66e0af1893">
+  <name>Отчеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Отчеты</picture>
+  </picture>
+  <content>Report.ВыпискаПоСчету</content>
+  <content>Report.ЖурналАудита</content>
+  <content>Report.ПлатежныйКалендарь</content>
+  <content>Report.АнализЗадолженности</content>
+  <content>Report.РеестрПлатежей</content>
+</mdclass:Subsystem>

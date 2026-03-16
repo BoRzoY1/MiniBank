@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3acf0ce4-bc72-4525-941c-944c5b85fe55">
+  <producedTypes>
+    <objectType typeId="14d5651e-364f-4ef7-b8ec-2c9fd0cc907d" valueTypeId="9ae6d9e0-1263-46fa-a19b-a213a558dfd8"/>
+    <refType typeId="5ed55d49-0ab7-45d3-9e00-e233e38bbbc9" valueTypeId="f0db652a-2f05-48af-91e5-63b9bb1c647b"/>
+    <selectionType typeId="a577534f-9437-4df0-bad4-d3debe115cd5" valueTypeId="7f573738-0149-4220-9b6c-be356171df83"/>
+    <listType typeId="6200a65e-db83-4a1f-81d6-9a080cddb5bb" valueTypeId="af1e23aa-8c2f-4c2b-a16b-11d102453086"/>
+    <managerType typeId="c99a66cf-fd06-4167-893c-91335f5a29a5" valueTypeId="3e0bacda-cb2a-4f21-b30b-72cf2935ea1f"/>
+  </producedTypes>
+  <name>Валюты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валюты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Валюты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Валюты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>3</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Валюты.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="a76990d8-28c2-4f2e-be19-29dee3798a2b">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

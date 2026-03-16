@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="753621b9-e7c1-4897-9824-db65a57d2afc">
+  <producedTypes>
+    <refType typeId="03a295b8-f669-47cf-97be-3b6d901dba1e" valueTypeId="a82f0184-bf0e-4432-92b8-a384542f0c92"/>
+    <listType typeId="6a21fdf4-1daa-465e-9308-b6542f306ce5" valueTypeId="707a54c9-ddcd-446f-8cb0-7deea2aca326"/>
+    <managerType typeId="2d16bbeb-52e8-4f41-ae75-1afff75ca24d" valueTypeId="9d83faf5-c20f-4e27-bd04-3660ce43a2bb"/>
+  </producedTypes>
+  <name>СтатусыПлатежа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы платежа</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3d8053b9-bd79-4181-9482-13ec6ef1a450">
+    <name>План</name>
+    <synonym>
+      <key>ru</key>
+      <value>План</value>
+    </synonym>
+    <comment>заявка создана, но оплата еще не прошла</comment>
+  </enumValues>
+  <enumValues uuid="c5e0ca4e-4553-46ed-bc0d-5463223a32fb">
+    <name>Исполнен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнен</value>
+    </synonym>
+    <comment>по документу уже есть проведенная платежка</comment>
+  </enumValues>
+  <enumValues uuid="1fc05ec7-a222-4640-b8f0-a897c36032eb">
+    <name>Согласован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласован</value>
+    </synonym>
+    <comment>для заявок, требующих утверждения</comment>
+  </enumValues>
+</mdclass:Enum>

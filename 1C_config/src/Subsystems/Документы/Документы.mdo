@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="573499c6-a142-4ed7-93ce-bd3b6ea4705b">
+  <name>Документы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Документы</picture>
+  </picture>
+  <content>Document.ВводНачальныхОстатков</content>
+  <content>Document.ПлатежноеПоручение</content>
+  <content>Document.ЗаявкаНаКредит</content>
+  <content>Document.ЗаявкаНаРасходДС</content>
+  <content>Document.СчетНаОплату</content>
+</mdclass:Subsystem>

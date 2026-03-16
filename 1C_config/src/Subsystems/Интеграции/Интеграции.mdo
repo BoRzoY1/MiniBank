@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05882cd8-1784-4005-a915-4df846d1971b">
+  <name>Интеграции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграции</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Интеграции</picture>
+  </picture>
+  <content>InformationRegister.КурсыВалют</content>
+  <content>CommonCommand.ОбновитьКурсыВалют</content>
+  <content>DataProcessor.ВыгрузкаПлатежейВБанк</content>
+  <content>DataProcessor.ПакетноеСозданиеПлатежей</content>
+</mdclass:Subsystem>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45650dbd-0c1c-474a-b554-03b4a1aecf31">
+  <producedTypes>
+    <objectType typeId="f9bf13b6-37bd-49c4-8523-c46744152400" valueTypeId="720c097a-e678-452b-a555-0af9fd46c498"/>
+    <refType typeId="8edad94b-62d4-4b8a-bb75-a515195f0894" valueTypeId="210776d4-b05a-458d-b473-a377ceaee582"/>
+    <selectionType typeId="6d96cb6a-1039-400a-9da5-eb0324397618" valueTypeId="f8335274-066e-476f-baa9-1fb025bbf12f"/>
+    <listType typeId="d82fba5c-54c8-4e8d-82ee-cf50ee16c3dd" valueTypeId="a2da47d0-3dde-4beb-a339-f630fecd1ba4"/>
+    <managerType typeId="2272e10e-0ccb-464b-8aaf-a502f124df8a" valueTypeId="a5e5b832-1398-4a19-92ff-2b5d33154910"/>
+  </producedTypes>
+  <name>ВводНачальныхОстатков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ввод начальных остатков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ВводНачальныхОстатков.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.ОстаткиНаСчетах</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <tabularSections uuid="f6e40531-03cc-46a2-b08b-94ff8fd43d9e">
+    <producedTypes>
+      <objectType typeId="71f3dc9d-7fd4-464c-a579-2ffa324ba117" valueTypeId="04ab858c-3949-4ec4-bea8-c013f3bf08ee"/>
+      <rowType typeId="21dd63e4-396a-4878-ac93-263350058ec6" valueTypeId="5536ddcd-a668-4f9f-a2d6-e5ab9c2dee3f"/>
+    </producedTypes>
+    <name>Остатки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остатки</value>
+    </synonym>
+    <attributes uuid="35c909eb-1798-44ba-9ca8-df80dbc5a303">
+      <name>Счет</name>
+      <synonym>
+        <key>ru</key>
+        <value>Счет</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.БанковскиеСчета</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="40b04274-8f22-4eb5-ae82-9c475b321165">
+      <name>СуммаОстатка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма остатка</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Document>

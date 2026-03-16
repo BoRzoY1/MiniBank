@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c14a747-65cb-4452-998b-ae85ed4a5eb0">
+  <name>MiniBank</name>
+  <synonym>
+    <key>ru</key>
+    <value>Mini bank</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="b92c0823-25b2-4def-9c18-32e687c45f75"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="78859510-d28d-4082-b67d-12fdbfca2d88"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="5d9c8556-2512-456c-92a1-7d49a2355b00"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="2c488fcc-703a-4ffd-888a-ba426f0ce0ce"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="648f40e4-bfd9-446c-ae2f-79b2c81a5874"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="e8d160eb-6832-4e88-8c64-99829970e098"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="c8eafec0-f0bd-479a-bcc9-ec6a26ecbd85"/>
+  <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Саленок Дмитрий</vendor>
+  <version>1.0</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <mainSectionPicture/>
+  <defaultStyle>Style.Стиль1</defaultStyle>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <briefInformation>
+    <key>ru</key>
+    <value>Демонстрационная конфигурация с аудитом, интеграциями и отчетностью</value>
+  </briefInformation>
+  <logo/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.27</compatibilityMode>
+  <languages uuid="1079dcb3-714b-41e3-ac16-0a8f85768c4a">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.КлиентыИСчета</subsystems>
+  <subsystems>Subsystem.Документы</subsystems>
+  <subsystems>Subsystem.Отчеты</subsystems>
+  <subsystems>Subsystem.Интеграции</subsystems>
+  <subsystems>Subsystem.Администрирование</subsystems>
+  <styles>Style.Стиль1</styles>
+  <commonPictures>CommonPicture.КлиентыИСчета</commonPictures>
+  <commonPictures>CommonPicture.Документы</commonPictures>
+  <commonPictures>CommonPicture.Отчеты</commonPictures>
+  <commonPictures>CommonPicture.Интеграции</commonPictures>
+  <commonPictures>CommonPicture.Администрирование</commonPictures>
+  <roles>Role.Администратор</roles>
+  <commonModules>CommonModule.РаботаСAPI</commonModules>
+  <commonModules>CommonModule.Журналирование</commonModules>
+  <commonModules>CommonModule.РегламентноеЗадание</commonModules>
+  <scheduledJobs>ScheduledJob.ОбновлениеКурсовВалют</scheduledJobs>
+  <commonCommands>CommonCommand.ОбновитьКурсыВалют</commonCommands>
+  <commonCommands>CommonCommand.ОткрытьЖурналАудита</commonCommands>
+  <commandGroups>CommandGroup.ГруппаКомандАдминистрирование</commandGroups>
+  <commandGroups>CommandGroup.Группа_Интеграции</commandGroups>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.ТипыСчетов</catalogs>
+  <catalogs>Catalog.БанковскиеСчета</catalogs>
+  <documents>Document.ВводНачальныхОстатков</documents>
+  <documents>Document.ПлатежноеПоручение</documents>
+  <documents>Document.ЗаявкаНаКредит</documents>
+  <documents>Document.ЗаявкаНаРасходДС</documents>
+  <documents>Document.СчетНаОплату</documents>
+  <enums>Enum.СтатусыЗаявок</enums>
+  <enums>Enum.ТипыДвижений</enums>
+  <enums>Enum.СтатусыПлатежа</enums>
+  <reports>Report.ВыпискаПоСчету</reports>
+  <reports>Report.ЖурналАудита</reports>
+  <reports>Report.ПлатежныйКалендарь</reports>
+  <reports>Report.АнализЗадолженности</reports>
+  <reports>Report.РеестрПлатежей</reports>
+  <dataProcessors>DataProcessor.ВыгрузкаПлатежейВБанк</dataProcessors>
+  <dataProcessors>DataProcessor.ПакетноеСозданиеПлатежей</dataProcessors>
+  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
+  <informationRegisters>InformationRegister.ЖурналАудита</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиНаСчетах</accumulationRegisters>
+</mdclass:Configuration>

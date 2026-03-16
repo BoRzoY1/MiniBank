@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b7ff79a2-3927-4545-a77c-b87a298fc757">
+  <name>КлиентыИСчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Клиенты и счета</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.КлиентыИСчета</picture>
+  </picture>
+  <content>Catalog.Валюты</content>
+  <content>Catalog.Клиенты</content>
+  <content>Catalog.ТипыСчетов</content>
+  <content>Catalog.БанковскиеСчета</content>
+  <content>AccumulationRegister.ОстаткиНаСчетах</content>
+</mdclass:Subsystem>

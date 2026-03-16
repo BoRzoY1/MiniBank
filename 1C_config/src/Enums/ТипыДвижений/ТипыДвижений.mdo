@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6683c2c0-0b82-4082-b87c-34e09eea7e64">
+  <producedTypes>
+    <refType typeId="5f87560e-d828-4809-b6d2-6488588cdedc" valueTypeId="b688212a-3b1a-4229-b2a7-a4d89bcbbb5b"/>
+    <listType typeId="e5957344-a099-4cce-89fd-685bcd764aad" valueTypeId="55818d40-db20-4d02-92d7-b18cfa6343e1"/>
+    <managerType typeId="1647b319-765b-48f2-9bee-3fb25e2154e5" valueTypeId="c9feab58-dcfa-4fb9-a778-fec66d7719d2"/>
+  </producedTypes>
+  <name>ТипыДвижений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы движений</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d49db6aa-50ce-44b3-b250-6d29e9eeb9f8">
+    <name>Поступление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="265b1e58-3d51-40d7-9345-3ecd9c51d291">
+    <name>Списание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0d165413-fdb2-4ef0-9aec-27e22ce6a987">
+    <name>Корректировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корректировка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

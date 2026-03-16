@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a25bf3d-a7a6-43b1-93d6-e758316807df">
+  <producedTypes>
+    <objectType typeId="ae0c326a-93c0-46a7-a733-59b4ec5b280e" valueTypeId="8607db34-6e88-45ae-aa68-0acb71799d59"/>
+    <refType typeId="2f09c8e0-0659-41fa-8715-f8523a64ce15" valueTypeId="ff731f74-c4f6-422a-9815-146bbda37898"/>
+    <selectionType typeId="ca4f6903-741f-40dd-851b-18a775d34c56" valueTypeId="93837102-87a2-4e41-8b7b-c1cdf2a91ab3"/>
+    <listType typeId="5364f937-124f-4e7e-b47f-b8b065280187" valueTypeId="468405ef-6ba8-4767-af07-10b5457205da"/>
+    <managerType typeId="90771110-f742-40ec-8e28-19eadeb683b2" valueTypeId="4da37991-d45c-49f6-aca8-ed33f4e372e4"/>
+  </producedTypes>
+  <name>ТипыСчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы счетов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипыСчетов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТипыСчетов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="50e3b494-1e7a-4bf5-bffe-7c2590381e4e">
+    <name>ПроцентнаяСтавка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процентная ставка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
